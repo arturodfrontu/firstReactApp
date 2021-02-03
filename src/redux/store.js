@@ -1,5 +1,5 @@
 import { combineReducers, createStore } from 'redux';
-import initialStoreData from '../data/dataStore';
+import initialStoreData from '../data/dataStore.js';
 import columnsReducer from '../redux/columnsRedux.js';
 import cardsReducer from '../redux/cardsRedux.js';
 
