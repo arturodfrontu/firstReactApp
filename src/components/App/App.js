@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './App.scss';
+import styles from '../App/App.scss';
 import List from '../List/ListContainer.js';
 import PropTypes from 'prop-types';
 
