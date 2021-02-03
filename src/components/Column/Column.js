@@ -31,11 +31,11 @@ class Column extends React.Component {
           </span>
         </h3>
 
-        {<div>
+        <div>
           {cards.map(cardData => (
             <Card key={cardData.id} {...cardData} />
           ))}
-        </div>}
+        </div>
 
 
         <div className={styles.creator}>
