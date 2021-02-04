@@ -2,17 +2,20 @@ import { combineReducers, createStore } from 'redux';
 import initialStoreData from '../data/dataStore.js';
 import columnsReducer from '../redux/columnsRedux.js';
 import cardsReducer from '../redux/cardsRedux.js';
+import searchStringReducer from '../redux/searchStringRedux.js';
 
 const initialState = {
   app: initialStoreData.app,
   lists: initialStoreData.lists,
   columns: initialStoreData.columns,
   cards: initialStoreData.cards,
+  searchString: '',
 };
 
 const reducers = {
   columns: columnsReducer,
   cards: cardsReducer,
+  searchString: searchStringReducer,
 };
 
 Object.keys(initialState).forEach(item => {
