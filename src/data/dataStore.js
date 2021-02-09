@@ -148,4 +148,22 @@ const initialStoreData = {
   cards: [...cards],
 };
 
+export const faq = {
+  title: 'Faq',
+  image: `http://uploads.kodilla.com/bootcamp/fer/11.react/space.png`,
+  question1: 'Lorem ipsum dolor sit amet ?',
+  answer1: 'Yes, Yes, Yes ...',
+  question2: 'Dolor ipsum lerem ?',
+  answer2: 'No',
+  question3: 'Lerem dolor ipsum met amet ?',
+  answer3: 'Que ?',
+  question4: 'Tes alen dok met alem ipsum ?',
+  answer4: 'Mu Mu Mu !',
+};
+
+export const info = {
+  title: 'Info',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+};
+
 export default initialStoreData;
